@@ -1,0 +1,8 @@
+PostgreSQL:
+ALTER DATABASE current_database_name RENAME TO new_database_name;
+
+SQL Server:
+ALTER DATABASE current_database_name MODIFY NAME = new_database_name
+
+MySQL:
+MySQL does not allow the RENAME DATABASE
